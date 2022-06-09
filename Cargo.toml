@@ -1,0 +1,19 @@
+[package]
+name = "xdg-app-ksni-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bimap = "0.6.2"
+backtrace = "0.3"
+freedesktop-desktop-entry = "0.5.0"
+notify = "4.0.17"
+log = "0.4.16"
+log_err = "1.1.1"
+simple_logger = "2.1.0"
+sys-locale = "0.2.0"
+systemd-journal-logger = "0.5.0"
+thread-id = "4.0.0"
+xdg = "2.4.1"
